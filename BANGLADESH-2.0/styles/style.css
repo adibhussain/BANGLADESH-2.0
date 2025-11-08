@@ -318,7 +318,7 @@ main section {
 /* quote section  */
 
 .quote {
-    
+
     height: 256px;
     padding: 32px 24px 24px 32px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -328,16 +328,62 @@ main section {
 }
 
 .author-name {
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
 }
 
-.author-section.description-text {
-    margin-top: 0;      
+.description-text {
+    margin-top: 0;
 }
 
 .quote {
     background-image: url('../styles/assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: top left;
-      
+
+}
+
+
+/* table layout */
+
+table {
+    border-collapse: collapse;
+    /* padding: 24px; */
+    /* margin: 24px 24px; */
+
+}
+
+td,
+th {
+    border: 1px solid #DBDBDB;
+    padding: 36px 24px;
+}
+
+th {
+
+    background-color: #C6E4D6;
+}
+
+.table-layout {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+
+.table-button {
+    
+padding: 12px 16px;
+    display: flex;
+    /* padding: 10px 14px 10px 14px; */
+
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+    transition: all 0.3s ease;
+    
+}
+
+.table-button:hover {
+    background: #D3E7E2;
+    transition: all 0.3s ease;
 }
