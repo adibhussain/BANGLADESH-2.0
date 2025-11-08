@@ -293,7 +293,7 @@ main section {
     border: none;
     color: white;
     font-weight: 600;
-    align-items:baseline;
+    align-items: baseline;
     margin-top: auto;
 
 }
@@ -312,4 +312,32 @@ main section {
     border: none;
     color: white;
     font-weight: 600;
+}
+
+
+/* quote section  */
+
+.quote {
+    
+    height: 256px;
+    padding: 32px 24px 24px 32px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.author-name {
+    margin-bottom: 12px; 
+}
+
+.author-section.description-text {
+    margin-top: 0;      
+}
+
+.quote {
+    background-image: url('../styles/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+      
 }
