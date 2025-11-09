@@ -22,12 +22,16 @@ body {
 
 /* shared-style */
 
+.text-alignment {
+    text-align: center;
+}
+
 .section-title {
     color: rgba(14, 14, 14, 1);
     font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
-    text-align: left;
+    /* text-align: left; */
     margin-bottom: 24px;
 }
 
@@ -37,7 +41,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
+    /* text-align: left; */
     margin-bottom: 32px;
 
 
@@ -371,8 +375,8 @@ th {
 }
 
 .table-button {
-    
-padding: 12px 16px;
+
+    padding: 12px 16px;
     display: flex;
     /* padding: 10px 14px 10px 14px; */
 
@@ -380,10 +384,103 @@ padding: 12px 16px;
     border-radius: 4px;
     background: rgba(198, 228, 214, 1);
     transition: all 0.3s ease;
-    
+
 }
 
 .table-button:hover {
     background: #D3E7E2;
     transition: all 0.3s ease;
+}
+
+/* news section design */
+
+.news-layout {
+    gap: 24px;
+}
+
+.new-container {
+    display: flex;
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.satelite-img {
+    border-radius: 24px;
+    border: #FFFFFF;
+}
+
+.news-headline {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px;
+}
+
+.date-time {
+    display: flex;
+    gap: 12px;
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.reverse-container {
+    flex-direction: row-reverse;
+}
+
+
+/* donation layout */
+
+.donation {
+    
+}
+
+.donation-container {
+    background-color: white;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    width: 240px;
+}
+
+.amount {
+    color: #111111;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.donation-amounts {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.selected-container {
+    background-color: #C6E4D6;
+}
+
+.enter-amount {
+
+    width: 1032px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    border-bottom: unde solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 1);
+    margin-top: 24px;
+
+
+}
+
+.input {
+    align-items: center;
 }
