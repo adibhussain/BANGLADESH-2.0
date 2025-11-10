@@ -148,10 +148,15 @@ nav li a {
 
 /* banner-styles */
 
+.banner-bg {
+    background-color: #C6E4D6;
+
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
-    background-color: #C6E4D6;
+    /* background-color: #C6E4D6; */
     /* max-width: 1280px; */
     padding: 80px 60px;
     margin: 0px 160px;
@@ -440,9 +445,7 @@ th {
 
 /* donation layout */
 
-.donation {
-    
-}
+.donation {}
 
 .donation-container {
     background-color: white;
@@ -472,15 +475,31 @@ th {
 .enter-amount {
 
     width: 1032px;
-    height: 64px;
+    height: 32px;
     padding: 20px 40px 20px 40px;
-    border-bottom: unde solid rgba(14, 14, 14, 0.15);
+    border: 1px solid #DBDBDB;
     background: rgba(255, 255, 255, 1);
     margin-top: 24px;
+    border-radius: 12px;
+    font-size: 20px;
+    outline: none;
+
 
 
 }
 
-.input {
-    align-items: center;
+
+.donation-field {
+    /* background-color: #f5f5f5;
+    padding: 40px 20px; */
+    text-align: center;
+}
+
+
+/* newsletter */
+
+.newsletter {
+    padding: 80px 20px;
+    border-radius: 20px;
+    text-align: center;
 }
